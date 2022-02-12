@@ -9,7 +9,7 @@ import { FadeTransform, Fade, Stagger } from 'react-animation-components';
 function RenderCampsite({campsite}) {
     return (
         <div className="col-md-5 m-1">
-            <FadeTransform in transformProps={{exitTransform: 'scale(0.5) translateY(50%)'}}>
+            <FadeTransform in transformProps={{exitTransform: 'scale(0.5) translateY(10%)'}}>
                 <Card>
                     <CardImg top src={baseUrl + campsite.image} alt={campsite.name} />
                     <CardBody>
